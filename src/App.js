@@ -33,7 +33,6 @@ export class App extends core.Component {
       .init()
       .then((user)=>{
         authServiece.user = user
-        console.log(user)
         this.setState((state)=>{
           
           return{
@@ -98,7 +97,6 @@ export class App extends core.Component {
     eventBus.off(appEvents.userLoggedOut,this.onSignOut)
   }
   render(){
-    console.log(this.state.isLogged)
     return this.state.isLoading
     ? `<it-preloader is-loading="${this.state.isLoading}"></it-preloader>`
     :` 

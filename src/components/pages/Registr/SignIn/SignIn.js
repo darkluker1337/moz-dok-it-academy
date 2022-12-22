@@ -69,7 +69,6 @@ export class SignIn extends Component{
     };
 
     validate = (evt) => {
-      console.log(evt.detail)
       this.setState((state) => {
         return {
           ...state,
