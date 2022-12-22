@@ -1,0 +1,51 @@
+.head{
+    width: 5em;
+    height: 5em;
+    background: #719430;
+    border-radius: 100%;
+    position: absolute;
+    top: -2.5em;
+    
+} 
+
+.productin-cart{
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+.contant{
+    margin-top: 50px;
+    position: relative;
+    max-width: 200px;
+    background: rgb(248, 248, 248);
+    
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contant>h3{
+    text-align: center;
+    padding-top: 20% ;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.contant>p{
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height:150%;
+}
+@media screen and (max-width: 695px) {
+    
+    .productin-cart{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+}

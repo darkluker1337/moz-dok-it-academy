@@ -1,0 +1,22 @@
+.Bearings-cart{
+    display: flex;
+    margin: auto;
+    margin-top: 3em;
+    flex-direction: column;
+    
+}
+.Bearings-section{
+    width: 100%;
+    border-top: 1px dashed lightgray;
+    border-bottom: 1px dashed lightgray;
+    display: flex;
+    padding: 1.25em 0 1.25em 1.1em;
+    flex-wrap: wrap;
+}
+
+.Bearings-section:hover{
+    background-color: #ebebeb57;
+}
+.Bearings-cost{
+    color: lightgray;
+}

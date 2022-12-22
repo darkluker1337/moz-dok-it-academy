@@ -1,0 +1,62 @@
+
+
+.positions-name{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    margin: auto;
+}
+
+.text-center{
+    display: block;
+    border-style: solid;
+    border-color: #ebebebc8;
+    
+    max-width:100%;
+
+    width:25rem;
+    height: 2.2em;
+    display: flex;
+    
+}
+.text-center>div{
+    margin: auto;
+    font-size: 13px;
+}
+
+.bot-row{
+    border-width: 0px 1px 1px 1px;
+}
+.top-row{
+    border-width: 1px 1px 1px 1px;
+}
+.odd{
+    font-weight:lighter;
+    background: #ebebeb9f;
+}
+.even{
+    color: #969696;
+}
+.first-colomn, .second-colomn{
+    max-width: 100%;
+    
+}
+@media screen and (max-width: 1300px) {
+    .positions-name>ul{
+        margin:15px auto;
+    }
+}    
+
+
+
+
+
+
+
+
+
+
+
+

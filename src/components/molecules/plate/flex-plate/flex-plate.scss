@@ -1,0 +1,21 @@
+.flex-item-insulation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.item-insultaion{
+    margin: 0;
+    flex-basis:19%;
+    border: 1px solid rgba(128, 128, 128, 0.446);
+}
+.item-insulation-name{
+    text-align: center;
+    color: black;
+    height: 100%;
+}
+.item-insultaion>a>img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}

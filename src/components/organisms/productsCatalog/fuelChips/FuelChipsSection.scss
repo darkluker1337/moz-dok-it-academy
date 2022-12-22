@@ -1,0 +1,51 @@
+.flue-section{
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+.flue-view{
+    max-width: 30em;
+}
+
+.flue-characteristics{
+    margin-top: 2px;
+    font-size: 15px;
+    
+}
+.characteristics-name{
+    padding: 4px;
+    border: 1px solid lightgray;
+    display: flex;
+}
+.characteristics-description{
+    position: relative;
+    background-color: #ebebeb4c;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.characteristics-name-text{
+    padding-top: 2px;
+}
+
+.cross{
+    float: left;
+    font-size: 20px;
+    border:1px rgba(128, 128, 128, 0.185) solid;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sertificate-footer{
+    text-align: center;
+}

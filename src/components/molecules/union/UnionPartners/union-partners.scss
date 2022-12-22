@@ -1,0 +1,38 @@
+.positions-held{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.positions-held>p{
+    margin-bottom: 2.5em;
+    
+}
+
+.positions-partners{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    font-size: 14px;
+}
+.positions-partners>li{
+    width: 45%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.positions-partners>li>a{
+    color:#719430;
+}
+.positions-partners>li>a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1240px) {
+    .positions-partners>li{
+        max-width: 95%;
+        width: 100%;
+        margin: 10px;
+    }
+}    
+

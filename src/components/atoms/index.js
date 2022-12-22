@@ -1,0 +1,6 @@
+export * from './about'
+export * from './main'
+export * from './union'
+export * from './productsCatalog'
+export * from './plate'
+export * from './preloader'

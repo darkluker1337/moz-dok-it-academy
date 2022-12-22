@@ -1,0 +1,27 @@
+.form-signup{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 2em;
+}
+.flex-input{
+    padding: 1em;
+}
+.input-form>input{
+    padding: 0.1em;
+    font-size: 20px;
+    width: 100%;
+}
+
+.form-button{
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 695px) {
+    .form-signup{
+        max-width: 100%;
+    }
+}

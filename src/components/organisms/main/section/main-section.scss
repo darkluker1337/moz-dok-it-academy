@@ -1,0 +1,33 @@
+.partners{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.politic{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.politic>p>a{
+    color: #8bba34;
+}
+
+.politic>p>a:hover{
+    text-decoration: underline;
+}
+
+.eco-house{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 495px) {
+    
+    .partners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

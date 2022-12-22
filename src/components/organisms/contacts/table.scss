@@ -1,0 +1,22 @@
+.resp-tab {
+    margin: auto;
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3em;
+}
+.resp-tab th, .resp-tab td {
+    padding: 10px 20px;
+    font-size: 13px;
+    border: none;
+    color: #969696;
+    background-color: #ebebeb9f;
+    border: 1px solid #CCC;
+}
+
+ td{
+    width: 25%;
+}
